@@ -1,14 +1,14 @@
-import Image from "next/image"
-import { Github, Linkedin, Instagram, Twitter } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import img from "../app/rd.jpg"
+import Image from "next/image";
+import { Github, Linkedin, Instagram, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import img from "../app/rd.jpg";
 
 const socialIcons = [
   { Icon: Github, link: "#" },
   { Icon: Linkedin, link: "#" },
   { Icon: Instagram, link: "#" },
   { Icon: Twitter, link: "#" },
-]
+];
 
 const Hero = () => {
   return (
@@ -48,7 +48,9 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-            <p className="text-xl mb-8">I'm a web developer passionate about creating amazing experiences</p>
+            <p className="text-xl mb-8">
+              I'm a web developer passionate about creating amazing experiences
+            </p>
             <Button asChild>
               <a href="#contact">Get in touch</a>
             </Button>
@@ -58,8 +60,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-32 h-32 bg-primary/10 rounded-br-full"></div>
       <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/10 rounded-tl-full"></div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
-
+export default Hero;
