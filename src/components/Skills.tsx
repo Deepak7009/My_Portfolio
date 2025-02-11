@@ -8,7 +8,7 @@ const skills = [
   { name: "TypeScript", level: 80 },
   { name: "Tailwind CSS", level: 95 },
   { name: "Node.js", level: 75 },
-  { name: "GraphQL", level: 70 },
+  { name: "Express.js", level: 70 },
 ];
 
 const Skills = () => {
