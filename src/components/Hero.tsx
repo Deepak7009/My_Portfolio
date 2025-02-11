@@ -27,7 +27,7 @@ const Hero = () => {
                 alt="Profile"
                 width={256}
                 // height={100}
-                className="rounded-full relative z-10 shadow-xl h-[250px]"
+                className="rounded-full relative z-10 shadow-xl h-[256px]"
               />
               <div className="absolute inset-0 rounded-full border-4 border-primary animate-spin-slow hover:pause-animation z-20"></div>
               {socialIcons.map(({ Icon, link }, index) => (

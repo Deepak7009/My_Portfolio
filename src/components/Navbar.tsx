@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-2 rounded-md text-gray-400 hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-blue-200"
+              className="p-2 rounded-md text-gray-400 hover:text-blue-200 "
             >
               <span className="sr-only">Toggle theme</span>
               {theme === "dark" ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
