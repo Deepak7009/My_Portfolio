@@ -23,14 +23,14 @@ const About = () => {
           </div>
           <div className="md:w-2/3">
             <p className="text-lg mb-4">
-              I'm a passionate web developer with experience in creating
-              responsive and user-friendly websites. My expertise includes
-              React, Next.js, and modern CSS frameworks like Tailwind.
+              {`I'm a passionate web developer with experience in creating
+  responsive and user-friendly websites. My expertise includes
+  React, Next.js, and modern CSS frameworks like Tailwind.`}
             </p>
             <p className="text-lg">
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open-source projects, or enjoying a good book on
-              software design patterns.
+              {`When I'm not coding, you can find me exploring new technologies,
+  contributing to open-source projects, or enjoying a good book on
+  software design patterns.`}
             </p>
           </div>
         </div>
