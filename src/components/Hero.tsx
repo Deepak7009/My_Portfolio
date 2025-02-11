@@ -45,7 +45,7 @@ const Hero = () => {
                     transform: "translate(-50%, -50%)",
                   }}
                 >
-                  <Icon className="w-5 h-5 text-white" />
+                  <Icon className="w-5 h-5" />
                 </a>
               ))}
             </div>
